@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+const text = 'Hello, Vue 3 + Vite!'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    {{ text }}
   </main>
 </template>
